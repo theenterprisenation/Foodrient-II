@@ -100,12 +100,12 @@ const About = () => {
                 {
                   year: "2024",
                   title: "The Beginning",
-                  description: "In 2024, Nigeria faced one of its toughest economic challenges—skyrocketing inflation surpassing 42%, with food prices hitting hardest. As an ordinary citizen, the impact was unavoidable. Requests for help from friends and neighbors quadrupled, often accompanied by heartbreaking pleas like, 'My children haven’t eaten since yesterday'. Then, a viral video shook the nation—a grown man breaking down in tears at a market after realizing he couldn’t afford food for his family. Moved by his plight, strangers rallied to help. Days later, I witnessed a similar scene and joined in contributing. But afterward, a pressing question lingered: How long will we rely on spontaneous generosity? The answer was clear—we needed a sustainable solution, not just goodwill or government promises. That’s how Foodrient was born."
+                  description: "In 2024, Nigeria faced one of its toughest economic challenges—skyrocketing inflation surpassing 42%, with food prices hitting hardest. As an ordinary citizen, the impact was unavoidable. Requests for help from friends and neighbors quadrupled, often accompanied by heartbreaking pleas like, 'My children haven't eaten since yesterday'. Then, a viral video shook the nation—a grown man breaking down in tears at a market after realizing he couldn't afford food for his family. Moved by his plight, strangers rallied to help. Days later, I witnessed a similar scene and joined in contributing. But afterward, a pressing question lingered: How long will we rely on spontaneous generosity? The answer was clear—we needed a sustainable solution, not just goodwill or government promises. That's how Foodrient was born."
                 },
                 {
                   year: "2025",
                   title: "Innovation",
-                  description: "By 2025, our team had turned this vision into reality with a SaaS-powered food demand aggregation and group-buying platform. Foodrient connects households and restaurants, enabling bulk purchases of quality food at affordable prices—cutting out inefficiencies and ensuring no one has to beg or weep in the market just to eat. This is more than a business. it's an ecosystem, it’s a response to Nigeria’s pain—a lifeline built by the people, for the people. And this is only the beginning. #Foodrient #FoodGroupBuy"
+                  description: "By 2025, our team had turned this vision into reality with a SaaS-powered food demand aggregation and group-buying platform. Foodrient connects households and restaurants, enabling bulk purchases of quality food at affordable prices—cutting out inefficiencies and ensuring no one has to beg or weep in the market just to eat. This is more than a business. it's an ecosystem, it's a response to Nigeria's pain—a lifeline built by the people, for the people. And this is only the beginning. #Foodrient #FoodGroupBuy"
                 }
               ].map((milestone, index) => (
                 <div key={milestone.year} className={`relative lg:flex ${index % 2 === 0 ? 'lg:justify-start' : 'lg:justify-end'}`}>
@@ -185,7 +185,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="relative pt-[56.25%] rounded-xl overflow-hidden shadow-lg">
+          <div className="max-w-[80%] mx-auto relative pt-[45%] rounded-xl overflow-hidden shadow-lg">
             <iframe
               className="absolute inset-0 w-full h-full"
               src="https://www.youtube.com/embed/your-video-id"

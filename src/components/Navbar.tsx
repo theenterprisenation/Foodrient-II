@@ -20,40 +20,6 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Public Navigation Links */}
-          <div className="hidden md:flex items-center space-x-6">
-            <Link
-              to="/products"
-              className="text-neutral-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Products
-            </Link>
-            <Link
-              to="/group-buys"
-              className="text-neutral-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Group Buys
-            </Link>
-            <Link
-              to="/deals"
-              className="text-neutral-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Deals/Produce
-            </Link>
-            <Link
-              to="/about"
-              className="text-neutral-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium"
-            >
-              About
-            </Link>
-            <Link
-              to="/faq"
-              className="text-neutral-700 hover:text-yellow-500 px-3 py-2 rounded-md text-sm font-medium"
-            >
-              FAQ
-            </Link>
-          </div>
-
           {/* User Actions */}
           <div className="flex items-center space-x-4">
             {user ? (
